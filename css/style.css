@@ -166,11 +166,14 @@
 .timeline-body > p + p {
   margin-top: 5px;
 }
-.skills {
+div .skills {
     clear: both;
     padding-top: 5px;
     list-style: none;
 	background: lightgrey;
+	margin-top: 5px;
+    min-width: 460px;
+    display: inline-block;
 }
 .tag {
     padding: 3px 7px;
