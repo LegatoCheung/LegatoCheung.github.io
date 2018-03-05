@@ -166,7 +166,11 @@
 .timeline-body > p + p {
   margin-top: 5px;
 }
-
+.skills li {
+    clear: both;
+    padding-top: 5px;
+    list-style: none;
+}
 .tag {
     padding: 3px 7px;
     border-radius: 3px;
