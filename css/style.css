@@ -169,11 +169,11 @@
 div .skills {
     clear: both;
     padding-top: 5px;
-    list-style: none;
-	background: lightgrey;
 	margin-top: 5px;
+	margin-bottom: 5px;
     min-width: 460px;
     display: inline-block;
+    border: 1px solid #eeeeee;
 }
 .tag {
     padding: 3px 7px;
