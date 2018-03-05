@@ -90,7 +90,9 @@
   border-bottom-left-radius: 50%;
 }
 
-.timeline > li.timeline > .timeline-panel.inverted {
+.timeline > li.timeline > .timeline-panel-right {
+  padding: 20px;
+  position: relative;
   float: right;
   width: 77%;
   border: 1px solid #d4d4d4;
@@ -99,7 +101,7 @@
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
 }
 
-.timeline > li.timeline > .timeline-panel.inverted:before {	
+.timeline > li.timeline > .timeline-panel-right:before {	
   position: absolute;
   top: 26px;
   /*right: -15px;*/
@@ -115,7 +117,7 @@
   right: auto;
 }
 
-.timeline > li.timeline > .timeline-panel.inverted:after {
+.timeline > li.timeline > .timeline-panel-right:after {
   position: absolute;
   top: 27px;
   /*right: -14px;*/
