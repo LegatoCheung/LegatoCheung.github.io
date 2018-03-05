@@ -79,7 +79,7 @@
   font-size: 1.4em;
   text-align: center;
   position: absolute;
-  top: 16px;
+  top: 37px;
   left: 20%;
   margin-left: -25px;
   background-color: #999999;
@@ -94,7 +94,7 @@
   padding: 20px;
   position: relative;
   float: right;
-  width: 77%;
+  width: 76%;
   border: 1px solid #d4d4d4;
   border-radius: 2px;
   -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
