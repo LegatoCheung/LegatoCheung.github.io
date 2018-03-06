@@ -249,3 +249,11 @@ body > .container{
 .screenshot img {
 	width: 200px;
 }
+
+.profile {
+	float: left;
+}
+
+.pr {
+	float: right;
+}
