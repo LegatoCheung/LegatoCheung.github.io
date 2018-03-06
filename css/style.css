@@ -231,11 +231,11 @@ body > .container{
     display: block;
     background: #666;
     color: #fff;
-    width: 100px;
+    width: 65px;
     padding: 25px 0;
     text-align: center;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 35px;
 }
  
 #page-top a:hover {
