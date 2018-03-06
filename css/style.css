@@ -191,6 +191,7 @@ div .skills {
     background-image: url("../img/DSC_3706.JPG");
 	background-size:cover;
     color: white;
+    margin-bottom: 0;
 }
 
 .jumbotron p {
@@ -207,6 +208,9 @@ div .skills {
 }
 body {
 	background-color: lightblue;
+}
+body > jumbotron > .container{
+	background-color: transparent;
 }
 body > .container{
 	background-color: #fff;
