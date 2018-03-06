@@ -193,6 +193,15 @@ div .skills {
     color: white;
 }
 
-.jumbotron > p {
+.jumbotron p {
 	color: white;
+}
+.jumbotron .pic {
+	display: inline-block;
+    width: 120px;
+    height: 120px;
+	background-image:url("../img/13256092_1176530235690851_4279908986568972112_n (2).jpg");
+	background-size: cover;
+    background-position: center center;
+	border-radius: 75px;
 }
