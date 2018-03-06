@@ -186,3 +186,8 @@ div .skills {
     display: inline-block;
     margin: 0 2px 5px 0;
 }
+
+.jumbotron {
+    background-image: url("../img/DSC_3706.jpg");
+    color: white;
+}
