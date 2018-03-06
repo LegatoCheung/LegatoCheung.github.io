@@ -260,8 +260,11 @@ body > .container{
 
 .profile {
 	float: left;
+    width: 250px;
+    text-align: center;
 }
 
 .pr {
 	float: right;
+	width: 660px;
 }
