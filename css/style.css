@@ -196,7 +196,7 @@ div .skills {
 .jumbotron p {
 	color: white;
 }
-.jumbotron .pic {
+.pic {
 	display: inline-block;
     width: 120px;
     height: 120px;
