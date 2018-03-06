@@ -190,6 +190,7 @@ div .skills {
 .jumbotron {
     background-image: url("../img/DSC_3706.JPG");
 	background-size:cover;
+	background-position: center center;
     color: white;
     margin-bottom: 0;
 }
