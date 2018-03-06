@@ -9,7 +9,28 @@
     <script src="../js/bootstrap.min.js"></script>
 	
 	<link rel="stylesheet" href="../css/style.css">
-    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.min.js">
+		$(function () {
+			var topBtn = $('#page-top');
+			topBtn.hide();
+			//スクロールが500に達したらボタン表示
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 500) {
+					topBtn.fadeIn();
+				} else {
+					topBtn.fadeOut();
+				}
+			});
+			//スルスルっとスクロールでトップへもどる
+			topBtn.click(function () {
+				$('body,html').animate({
+					scrollTop: 0
+				}, 500);
+				return false;
+			});
+		});
+	</script>
+	
 </head>
 <body>
 	<div class="jumbotron jumbotron-fluid">
@@ -30,11 +51,29 @@
 		<div class="page-header">
 			<h1 id="timeline">Skill</h1>
 		</div>
-		OS：Windows（3年9ヶ月）
-		Language： C#（3年9ヶ月）／HTML（2年7ヶ月）／JavaScript（2年7ヶ月）／PHP（1年4ヶ月）／Visual Basic（1年）／Visual Basic for Applications（1年）
-		Framework：.NET Framework（3年9ヶ月）／ASP.NET MVC Framework（1年3ヶ月）、Bootstrap framework（8ヶ月）
-		DB：Microsoft SQL Server（3年9ヶ月）／MySQL（1年4ヶ月）
-		業務で使用していたスキルは以上です。他にも専門学校と大学で学んだスキルはC、Java、Linux、Oracle、Android Studioでアプリ開発など。
+		<div class="skills">
+			<div>OS：
+				<span class="tag">Windows（3年9ヶ月）</span>
+			</div>
+			<div>Language：
+				<span class="tag">C#（3年9ヶ月）</span>
+				<span class="tag">HTML（2年7ヶ月）</span>
+				<span class="tag">JavaScript（2年7ヶ月）</span>
+				<span class="tag">PHP（1年4ヶ月）</span>
+				<span class="tag">Visual Basic（1年）</span>
+				<span class="tag">Visual Basic for Applications（1年）</span>
+			</div>
+			<div>Framework：
+				<span class="tag">.NET Framework（3年9ヶ月）</span>
+				<span class="tag">ASP.NET MVC Framework（1年3ヶ月）</span>
+				<span class="tag">Bootstrap framework（8ヶ月）</span>
+			</div>
+			<div>DB：
+				<span class="tag">Microsoft SQL Server（3年9ヶ月）</span>
+				<span class="tag">MySQL（1年4ヶ月）</span>
+			</div>
+		</div>
+		<p>業務で使用していたスキルは以上です。他にも専門学校と大学で学んだスキルはC、Java、Linux、Oracle、Android Studioでアプリ開発など。</p>
 		<div class="page-header">
 			<h1 id="timeline">Projects</h1>
 		</div>
@@ -542,4 +581,7 @@
 		</ul>
 	</div>
 </body>
+<footer>
+    <p id="page-top"><a href="#"><span class="glyphicon glyphicon-arrow-up"></span></a></p>
+</footer>
 </html>
