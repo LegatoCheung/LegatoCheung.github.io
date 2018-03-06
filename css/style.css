@@ -208,6 +208,6 @@ div .skills {
 body {
 	background-color: lightblue;
 }
-.container{
+body .container{
 	background-color: #fff;
 }
