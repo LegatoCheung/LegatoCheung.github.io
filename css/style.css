@@ -191,3 +191,7 @@ div .skills {
     background-image: url("../img/DSC_3706.JPG");
     color: white;
 }
+
+.jumbotron > p {
+	color: white;
+}
