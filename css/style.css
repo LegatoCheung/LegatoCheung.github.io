@@ -201,6 +201,8 @@ body {
 }
 body > jumbotron > .container{
 	background-color: transparent;
+}
+.jumbotron .container {
     text-align: center;
 }
 body > .container{
