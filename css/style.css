@@ -198,6 +198,10 @@ div .skills {
 .jumbotron p {
 	color: white;
 }
+.jumbotron h1 {
+	color: white;
+	font-family: fantasy;
+}
 .pic {
 	display: inline-block;
     width: 120px;
