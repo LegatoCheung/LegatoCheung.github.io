@@ -238,3 +238,10 @@ body > .container{
     background: #999;
     text-decoration: none;
 }
+.screenshot {
+	margin-bottom: 5px;
+}
+
+.screenshot img {
+	width: 200px;
+}
