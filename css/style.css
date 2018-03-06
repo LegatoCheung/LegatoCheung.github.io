@@ -205,3 +205,9 @@ div .skills {
     background-position: center center;
 	border-radius: 75px;
 }
+body {
+	background-color: lightblue;
+}
+.container{
+	background-color: #fff;
+}
